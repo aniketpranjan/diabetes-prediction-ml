@@ -1,0 +1,2 @@
+# Trained machine learning model artifacts (.pkl files) will be saved here by train_model.py.
+# (No fake models are generated)
