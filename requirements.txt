@@ -4,5 +4,8 @@ numpy>=1.24.0
 scikit-learn>=1.3.0
 joblib>=1.3.0
 
-# Web Application Framework
+# Web Application & REST API Frameworks
 streamlit>=1.28.0
+fastapi>=0.100.0
+uvicorn>=0.23.0
+

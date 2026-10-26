@@ -20,6 +20,8 @@ if str(BASE_DIR) not in sys.path:
 
 # Import top-level functions required for joblib unpickling
 from train_model import convert_zeros_to_nan
+import __main__
+__main__.convert_zeros_to_nan = convert_zeros_to_nan
 
 MODEL_PATH = BASE_DIR / "models" / "diabetes_pipeline.pkl"
 METRICS_PATH = BASE_DIR / "models" / "model_comparison.json"

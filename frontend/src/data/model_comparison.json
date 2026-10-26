@@ -1,0 +1,41 @@
+{
+  "disclaimer": "Academic prototype only; not certified for clinical diagnosis.",
+  "random_seed": 42,
+  "test_size": 0.2,
+  "best_model": "Random Forest",
+  "comparison": {
+    "Logistic Regression": {
+      "Accuracy": 0.8888,
+      "Precision": 0.4264,
+      "Recall": 0.8935,
+      "F1_Score": 0.5773,
+      "ROC_AUC": 0.9629,
+      "Confusion_Matrix": [
+        [16257, 2043],
+        [181, 1519]
+      ]
+    },
+    "Decision Tree": {
+      "Accuracy": 0.8845,
+      "Precision": 0.4189,
+      "Recall": 0.9288,
+      "F1_Score": 0.5774,
+      "ROC_AUC": 0.9742,
+      "Confusion_Matrix": [
+        [16110, 2190],
+        [121, 1579]
+      ]
+    },
+    "Random Forest": {
+      "Accuracy": 0.9107,
+      "Precision": 0.4863,
+      "Recall": 0.9012,
+      "F1_Score": 0.6318,
+      "ROC_AUC": 0.9758,
+      "Confusion_Matrix": [
+        [16682, 1618],
+        [168, 1532]
+      ]
+    }
+  }
+}

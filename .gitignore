@@ -26,6 +26,13 @@ htmlcov/
 Thumbs.db
 desktop.ini
 
+# Node & Frontend Build Artifacts
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
 # IDE & Editor settings
 .vscode/
 .idea/
+
